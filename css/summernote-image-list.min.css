@@ -1,0 +1,31 @@
+.image-list-item {
+    display:inline-block;
+    position:relative;
+    inline-size:100%;
+    block-size:120px;
+    margin-block-end:50px;
+    border:2px solid #ddd;
+    border-radius:5px
+}
+.image-list-item:hover {
+    cursor:pointer;
+    border:2px solid #337ab7
+}
+.image-list-item img {
+    position:absolute;
+    inset-block-start:50%;
+    inset-inline-start:50%;
+    inline-size:auto;
+    block-size:auto;
+    max-inline-size:90%;
+    max-block-size:90%;
+    transform:translate(-50%,-50%)
+}
+.image-list-item p {
+    margin-block-start:120px;
+    text-align:center;
+    font-size:90%
+}
+.image-list-item:hover p {
+    color:#337ab7
+}
